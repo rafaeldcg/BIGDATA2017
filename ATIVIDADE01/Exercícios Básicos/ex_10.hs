@@ -13,4 +13,4 @@ divide = \a -> \bs -> (take a bs, drop a bs)
 posicao = length (anosBissextos) `div` 2
 
 main = do 
-       print (divide posicao anosBissextos)
+       print(divide posicao anosBissextos)

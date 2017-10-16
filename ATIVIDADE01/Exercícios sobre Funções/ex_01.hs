@@ -3,3 +3,5 @@ ehTriangulo a b c =
                 then True
                 else False
 				
+main = do
+       print(ehTriangulo 3 2 3)

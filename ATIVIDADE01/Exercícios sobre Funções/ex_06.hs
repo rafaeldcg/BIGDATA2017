@@ -5,3 +5,6 @@ persistenciaAditiva x
             where 
               numDig 0 = []
               numDig x = numDig (x `div` 10) ++ [x `mod` 10]
+			  
+main = do 
+       print(persistenciaAditiva 123)
