@@ -10,4 +10,7 @@ collatzLen x = length (collatzSeq x)
           collatzSeq x
            |x == 1 = x:[]
            |otherwise = x:collatzSeq (collatz x)
+		   		
+main = do 
+       print(collatzLen 10)
 		   
